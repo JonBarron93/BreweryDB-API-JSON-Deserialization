@@ -29,7 +29,7 @@ namespace BeerApi
 
             foreach (var b in beers.data)
             {
-                Console.WriteLine($"Name: {b.name} ID: {b.id}");
+                Console.WriteLine($"Name: {b.name} ID: {b.id} ABV: {b.abv}%");
             }
         }
     }
